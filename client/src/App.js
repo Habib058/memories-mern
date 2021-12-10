@@ -1,5 +1,3 @@
-// import { Container, AppBar, Typography, Grow, Grid } from '@m-ui/core';
-// import Container from '@mui/material/Container';
 import { Container, AppBar, Typography, Grow, Grid } from '@mui/material';
 import image from './assets/mypic.jpeg'
 import './App.css';
@@ -8,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <Container maxWidth="lg">
-      <AppBar position="static" color="inherit">
+      <AppBar  position="static" color="inherit">
         <Typography   variant="h2" align="center">Memories</Typography> 
         <img  src={image} alt="icon" height="60" />
       </AppBar>
