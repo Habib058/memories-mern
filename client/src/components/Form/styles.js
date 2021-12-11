@@ -20,10 +20,7 @@ export default makeStyles((theme) => ({
     width: '97%',
     margin: '10px 0',
   },
-  // buttonSubmit: {
-  //   marginBottom: '10px',
-  // },
-  clear:{
-    marginTop:10
+  buttonSubmit: {
+    marginBottom: '10px',
   }
 }));
